@@ -38,6 +38,6 @@ end
 
 def find_a(arr)
   arr.select do |str|
-    
+    str.start
   end 
 end 
