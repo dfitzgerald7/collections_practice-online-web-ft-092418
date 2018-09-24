@@ -41,3 +41,5 @@ def find_a(arr)
     str.start_with?("a")
   end 
 end 
+
+def sum_array
