@@ -37,5 +37,7 @@ def kesha_maker(arr)
 end 
 
 def find_a(arr)
-  arr.
+  arr.select do |str|
+    
+  end 
 end 
