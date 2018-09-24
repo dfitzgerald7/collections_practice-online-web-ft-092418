@@ -1,4 +1,4 @@
-
+requier "pry"
 def sort_array_asc(arr)
   arr.sort 
 end 
@@ -29,6 +29,7 @@ end
 def kesha_maker(arr)
   #new_arr = [] 
   arr.collect do |str|
+    binding.pry
     str[2] = "$"
   end 
 end 
