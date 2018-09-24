@@ -48,7 +48,7 @@ end
 
 def add_s(arr)
   arr.each_with_index.collect do |element, index|
-    index == 1? element + "s": element 
+    index == 1? element : element + "s"
      
   end 
 end 
