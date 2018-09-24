@@ -27,9 +27,10 @@ def reverse_array(arr)
 end 
 
 def kesha_maker(arr)
-  #new_arr = [] 
+  new_arr = [] 
   arr.collect do |str|
     binding.pry
     str[2] = "$"
+    new_arr << str
   end 
 end 
